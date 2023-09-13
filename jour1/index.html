@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon beau titre</title>
 </head>
+
 <body>
     <header>header
-        <nav>Nav dans le header</nav>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#matable">Achats</a></li>
+            </ul>
+        </nav>
     </header>
     <main>main
         <form action="" method="post">
             <input type="text" name="inputtext" id="inputtext" placeholder="Votre texte">
-            
+
             <input type="password" name="password" id="password" placeholder="Mot de passe">
-            
+
             <label for="check">Check this</label>
             <input type="checkbox" name="check" id="check">
 
@@ -31,12 +38,14 @@
             <article>article</article>
             <article>article
                 <video src="mining_compressed.mp4" controls></video>
+                <a href="https://www.deeprockgalactic.com/" target="_blank">Site officiel de Deep Rock Galactic</a>
             </article>
             <article>article
-                <aside><img src="95e.jpg" alt="Petit chien noir avec un papier d'emballage ressemblant à une bouteille de Coca"></aside>
+                <aside><img src="95e.jpg"
+                        alt="Petit chien noir avec un papier d'emballage ressemblant à une bouteille de Coca"></aside>
             </article>
         </section>
-        <table>
+        <table id="matable">
             <thead>
                 <tr>
                     <th>Item</th>
@@ -75,10 +84,14 @@
             </tfoot>
         </table>
     </main>
-    <footer>pied de page</footer>
-        <!-- Job 03
-Dans la section main, créez un formulaire simple avec des champs input de type texte,
-mot de passe, case à cocher, bouton radio et un bouton de soumission. -->
-
+    <footer>pied de page
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#matable">Achats</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
+
 </html>
