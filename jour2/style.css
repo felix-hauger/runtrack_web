@@ -5,22 +5,31 @@
     box-sizing: border-box;
 }
 
-ul {
-    list-style: none;
+body {
+    background-color: aliceblue;
 }
 
-main > * {
-    margin-bottom: 40px;
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
 }
 
 h1,
 h2,
 h3 {
-    margin-bottom: 18px;
+    /* margin-bottom: 18px; */
 }
 
 code {
     font-family: initial;
+}
+
+input[type="password"] {
+    color: darkgoldenrod;
 }
 
 .external-link::after {
@@ -46,6 +55,22 @@ code {
     background-color: darkseagreen;
 }
 
-input[type="password"] {
-    color: darkgoldenrod;
+.section {
+    margin-bottom: 40px;
+}
+
+.section__title {
+    /* margin-left: 60px; */
+    text-align: center;
+    font-size: 28px;
+}
+
+.article {
+    margin-bottom: 80px;
+}
+
+.article__title {
+    margin-left: 50px;
+    margin-bottom: 24px;
+    font-size: 22px;
 }

@@ -27,25 +27,29 @@
         </nav>
     </header>
     <main>
-        <form action="" method="post">
-            <input type="text" name="inputtext" id="inputtext" placeholder="Votre texte">
+        <section class="section">
+            <h2 class="section__title">Formulaire</h2>
 
-            <input type="password" name="password" id="password" placeholder="Mot de passe">
+            <form action="" method="post">
+                <input type="text" name="inputtext" id="inputtext" placeholder="Votre texte">
 
-            <label for="check">Check this</label>
-            <input type="checkbox" name="check" id="check">
+                <input type="password" name="password" id="password" placeholder="Mot de passe">
 
-            <label for="choix1">Choix 1</label>
-            <input type="radio" name="choix" id="choix1">
+                <label for="check">Check this</label>
+                <input type="checkbox" name="check" id="check">
 
-            <label for="choix2">Choix 2</label>
-            <input type="radio" name="choix" id="choix2">
+                <label for="choix1">Choix 1</label>
+                <input type="radio" name="choix" id="choix1">
 
-            <button type="submit">Soumettre</button>
-        </form>
+                <label for="choix2">Choix 2</label>
+                <input type="radio" name="choix" id="choix2">
 
-        <section>
-            <h2>Moi</h2>
+                <button type="submit">Soumettre</button>
+            </form>
+        </section>
+
+        <section class="section">
+            <h2 class="section__title">Moi</h2>
 
             <h3>Mes trucs préférés que j'aime</h3>
 
@@ -67,22 +71,23 @@
         </section>
 
         <section id="articles">
-            <h2>Articles</h2>
+            <h2 class="section__title">Articles</h2>
 
-            <article>
-                <h3>Article 1</h3>
+            <article class="article">
+                <h3 class="article__title">Article 1</h3>
 
                 <!-- Ceci est du code java -->
                 <code>System.out.println("Hello work");</code>
             </article>
 
-            <article>
-                <h3>DRG</h3>
+            <article class="article">
+                <h3 class="article__title">DRG</h3>
 
                 <video src="mining_compressed.mp4" controls></video>
 
                 <!-- On peut ajouter une icône pour indiquer que ce lien va nous faire sortir du site -->
-                <a href="https://www.deeprockgalactic.com/" target="_blank" class="external-link"><em>Site officiel de <abbr>DRG</abbr> (Deep
+                <a href="https://www.deeprockgalactic.com/" target="_blank" class="external-link"><em>Site officiel de
+                        <abbr>DRG</abbr> (Deep
                         Rock Galactic)</em></a>
 
                 <blockquote>
@@ -92,58 +97,67 @@
                 </blockquote>
             </article>
 
-            <article>
-                <h3>Haha trop rigodrôle</h3>
+            <article class="article">
+                <h3 class="article__title">Haha trop rigodrôle</h3>
 
                 <aside><img src="95e.jpg"
                         alt="Petit chien noir avec un papier d'emballage ressemblant à une bouteille de Coca"></aside>
             </article>
         </section>
 
-        <table id="matable" class="price-table">
-            <thead>
-                <tr>
-                    <th>Item</th>
-                    <th>Vendeur</th>
-                    <th>Prix</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Souris PC Gaming</td>
-                    <td>Materiel.net</td>
-                    <td>49.99</td>
-                </tr>
-                <tr>
-                    <td>Siège ergonomique</td>
-                    <td>Amazon</td>
-                    <td>299.99</td>
-                </tr>
-                <tr>
-                    <td>Poster Mimie Mathy</td>
-                    <td>Amazon</td>
-                    <td>9.99</td>
-                </tr>
-                <tr>
-                    <td>Cadre pour mur</td>
-                    <td>Amazon</td>
-                    <td>19.99</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td>Total</td>
-                    <td></td>
-                    <td>379.96</td>
-                </tr>
-            </tfoot>
-        </table>
+        <section>
+            <h2 class="section__title">Achats</h2>
+
+            <table id="matable" class="price-table">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Vendeur</th>
+                        <th>Prix</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Souris PC Gaming</td>
+                        <td>Materiel.net</td>
+                        <td>49.99</td>
+                    </tr>
+
+                    <tr>
+                        <td>Siège ergonomique</td>
+                        <td>Amazon</td>
+                        <td>299.99</td>
+                    </tr>
+
+                    <tr>
+                        <td>Poster Mimie Mathy</td>
+                        <td>Amazon</td>
+                        <td>9.99</td>
+                    </tr>
+
+                    <tr>
+                        <td>Cadre pour mur</td>
+                        <td>Amazon</td>
+                        <td>19.99</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td>Total</td>
+                        <td></td>
+                        <td>379.96</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
     </main>
     <footer>
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="#matable">Achats</a></li>
+                <li><a href="lien.html">Autre page</a></li>
             </ul>
         </nav>
     </footer>
