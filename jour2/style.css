@@ -9,3 +9,26 @@ ul {
 code {
     font-family: initial;
 }
+
+.price-table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.price-table td,
+.price-table th {
+    border: 1px solid black;
+    padding: 12px 8px;
+}
+
+.price-table td:last-child {
+    text-align: right;
+}
+
+#articles {
+    background-color: darkseagreen;
+}
+
+input[type="password"] {
+    color: darkgoldenrod;
+}
