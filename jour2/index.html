@@ -26,25 +26,32 @@
             </ul>
         </nav>
     </header>
+
     <main>
         <section class="section">
             <h2 class="section__title">Formulaire</h2>
 
-            <form action="" method="post">
-                <input type="text" name="inputtext" id="inputtext" placeholder="Votre texte">
+            <form action="" method="post" class="form--flex">
+                <input type="text" name="inputtext" id="inputtext" class="form__input" placeholder="Votre texte">
 
-                <input type="password" name="password" id="password" placeholder="Mot de passe">
+                <input type="password" name="password" id="password" class="form__input" placeholder="Mot de passe">
 
-                <label for="check">Check this</label>
-                <input type="checkbox" name="check" id="check">
+                <label for="check">
+                    <span>Check ça pour accepter de vendre ton âme pour 0€ TTC</span>
+                    <input type="checkbox" name="check" id="check">
+                </label>
 
-                <label for="choix1">Choix 1</label>
-                <input type="radio" name="choix" id="choix1">
+                <label for="choix1">
+                    <span>Choix 1</span>
+                    <input type="radio" name="choix" id="choix1">
+                </label>
 
-                <label for="choix2">Choix 2</label>
-                <input type="radio" name="choix" id="choix2">
-
-                <button type="submit">Soumettre</button>
+                <label for="choix2">
+                    <span>Choix 2</span>
+                    <input type="radio" name="choix" id="choix2">
+                </label>
+                
+                <button type="submit" class="form__input">Soumettre</button>
             </form>
         </section>
 
@@ -101,7 +108,7 @@
                 <h3 class="article__title">Haha trop rigodrôle</h3>
 
                 <aside><img src="95e.jpg"
-                        alt="Petit chien noir avec un papier d'emballage ressemblant à une bouteille de Coca"></aside>
+                        alt="Petit chien noir avec un papier d'emballage, ressemblant à une bouteille de Coca"></aside>
             </article>
         </section>
 

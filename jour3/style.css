@@ -1,0 +1,19 @@
+p {
+    padding: 18px;
+}
+
+.question {
+    background-color: chocolate;
+}
+
+.question::before {
+    content: "Question : ";
+}
+
+.answer {
+    background-color: yellowgreen;
+}
+
+.answer::before {
+    content: "Réponse : ";
+}
