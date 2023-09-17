@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jour3, job07 | Runtrack Web</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div id="boite-message"></div>
+    <form action="" method="post">
+        <input type="text" name="message" id="message" placeholder="message">
+        <button type="submit">Sauvegarde le message</button>
+    </form>
+
+    <p class="question">Comment prévenir les attaques par script intersites (XSS) lors de l'affichage de données stockées ?</p>
+
+    <p class="answer">Avec JavaScript on peut utiliser innerHtml qui va insérer du html, et <a href="https://developer.mozilla.org/fr/docs/Web/API/Element/innerHTML#consid%C3%A9rations_de_s%C3%A9curit%C3%A9">html5 empêche les scripts de s'exécuter quand ils sont insérer avec innerHtml</a>. Il faut cependant également le faire côté back car les scripts JavaScript côté client peuvent être altérés.</p>
+</body>
+
+</html>
